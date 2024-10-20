@@ -7,6 +7,8 @@ import ProductsPage from './pages/ProductsPage';
 import Sidebar from './components/Sidebar';
 import UsersPage from './pages/UsersPage';
 
+import SettingsPage from './pages/SettingsPage';
+
 const App = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -26,6 +28,7 @@ const App = () => {
                 <Route path="/" element={<OverviewPage />} />
                 <Route path="/products" element={<ProductsPage />} />
                 <Route path="/users" element={<UsersPage />} />
+                <Route path="/settings" element={<SettingsPage />} />
             </Routes>
         </div>
     );
