@@ -45,7 +45,10 @@ Follow these steps to run the project locally:
    ```
 
 ## 📸 Screenshots
-_Add relevant screenshots of your project_
+![admin1](./admind1.png)
+![admin2](./admind2.png)
+![admin3](./admind3.png)
+
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
